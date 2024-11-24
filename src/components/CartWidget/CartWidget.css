@@ -1,0 +1,9 @@
+.carrito {
+    background-color: #e4e6eb;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: solid 1px;
+    border-color: #b0b3b8;
+}

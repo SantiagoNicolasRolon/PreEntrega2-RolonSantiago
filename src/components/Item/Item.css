@@ -1,0 +1,21 @@
+.caja {
+    padding: 8px;
+    background-color: 	#18191a;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 325px;
+}
+.caja img {
+    height: 275px;
+    width: 225px;
+    border-radius: 20px;
+}
+.caja h2 {
+    color: #b0b3b8
+}
+.caja p{
+    color: #b0b3b8;
+}

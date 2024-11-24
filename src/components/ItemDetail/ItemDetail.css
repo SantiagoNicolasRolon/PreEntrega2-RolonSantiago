@@ -1,0 +1,31 @@
+.caja-contenedor{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caja-contenedor h2 {
+    color: #e4e6eb;
+}
+.caja-contenedor div {
+    padding: 8px;
+    background-color: #18191a;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 500px;
+}
+.caja-contenedor div img {
+    height: 475px;
+    width: 425px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.caja-contenedor div h2 {
+    color: #b0b3b8
+}
+.caja-contenedor div p {
+    color: #b0b3b8
+}
