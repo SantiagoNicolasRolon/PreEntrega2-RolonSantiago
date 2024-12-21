@@ -32,7 +32,7 @@ function NavBar() {
             </ul>
           </div>
             <form className="d-flex" role="search">
-                <CartWidget cartCount={5} />
+                <CartWidget />
             </form>
         </nav>
       </>

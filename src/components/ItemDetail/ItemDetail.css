@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation: transicion 1s;
 }
 .caja-contenedor h2 {
     color: #e4e6eb;
@@ -18,9 +19,9 @@
     width: 500px;
 }
 .caja-contenedor div img {
-    height: 475px;
-    width: 425px;
-    object-fit: cover;
+    height: auto;
+    width: 350px;
+   
     border-radius: 20px;
 }
 .caja-contenedor div h2 {
@@ -28,4 +29,14 @@
 }
 .caja-contenedor div p {
     color: #b0b3b8
+}
+@keyframes transicion {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
 }

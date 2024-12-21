@@ -1,0 +1,41 @@
+.Checkout{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.CheckoutContainer{
+    height: auto;
+    width: 600px;
+    background-color: beige;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+    animation: transicion 1s;
+}
+.InfoProducto {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #18191a;
+    color: beige;
+}
+.Formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    gap: 5px;
+}
+@keyframes transicion {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}

@@ -5,4 +5,24 @@ box-sizing: border-box;
 }
 body {
     background-color: #3a3b3c;
+    animation: transicion 1s;
+}
+
+.ligth-mode {
+    background-color: bisque;
+}
+
+.dark-mode {
+    background-color: #3a3b3c;
+}
+
+@keyframes transicion {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
 }

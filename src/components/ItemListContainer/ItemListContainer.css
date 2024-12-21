@@ -1,7 +1,23 @@
 .todo {
     text-align: center;
     padding: 10px;
+    animation: transicion 1s;
 }
-.todo h2{
+.todo h2 {
     color: #e4e6eb;
+}
+.ItemListContainerh3 {
+    color: white;
+    background-color: #18191a;
+    text-align: center;
+}
+@keyframes transicion {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
 }
